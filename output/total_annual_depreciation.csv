@@ -1,0 +1,10 @@
+scenario,miles_per_year,fuel,total_pct_per_year
+"typical (data-derived 7,000/yr)",7000,Petrol,-13.27
+"typical (data-derived 7,000/yr)",7000,Diesel,-13.4
+"typical (data-derived 7,000/yr)",7000,Hybrid,-11.12
+"rental 15,000/yr",15000,Petrol,-17.05
+"rental 15,000/yr",15000,Diesel,-17.17
+"rental 15,000/yr",15000,Hybrid,-14.99
+"rental 20,000/yr",20000,Petrol,-19.33
+"rental 20,000/yr",20000,Diesel,-19.45
+"rental 20,000/yr",20000,Hybrid,-17.32

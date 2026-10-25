@@ -1,0 +1,2 @@
+quantity,point_estimate,ci_low_rows_naive,ci_high_rows_naive,ci_low_models_honest,ci_high_models_honest,significant_by_model
+hybrid_minus_petrol_pct_per_year,2.24,1.88,2.59,-0.28,3.59,False

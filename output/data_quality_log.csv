@@ -1,0 +1,8 @@
+step,rows_removed,rows_remaining,reason
+load,0,99187,raw listings combined across 9 brand files
+dedupe,1475,97712,removed exact duplicate adverts
+year_range,3,97709,kept registration years 1990-2020 (removed impossible/future years)
+price_range,6,97703,"kept GBP 500-150,000 (removed placeholder/extreme prices)"
+mileage_range,9,97694,"kept 0-200,000 miles (removed impossible/extreme odometer values)"
+age_window,20,97674,kept vehicle age 0-20 years
+missing_fields,0,97674,removed rows missing any required field

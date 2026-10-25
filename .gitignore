@@ -1,0 +1,14 @@
+# Do NOT commit the raw dataset (licensing + repo size). Users download it.
+data/*
+!data/README.md
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# large generated artefacts are fine to keep, but ignore scratch logs
+*.log
+
+# large derived row-level data (regenerate via step1_clean.py)
+output/clean_cars.csv

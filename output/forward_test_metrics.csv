@@ -1,0 +1,8 @@
+method,mae_pct_points,note
+baseline_global_age_only,10.2,"naive, age only"
+baseline_per_model_age_only,10.5,"naive, each model's own age slope (stronger baseline)"
+hedonic_at_typical_mileage_FAIR,9.0,"regression, mileage set to typical-for-age (comparable to baseline)"
+hedonic_at_actual_mileage,8.1,"regression, each car's real mileage (uses extra info)"
+gbm_optional_blackbox,10.4,black-box; report even though it does not win
+unseen_A_seen_young,7.6,unseen model but seen young (easier)
+unseen_B_never_seen_FAIR,13.3,"unseen model, never seen at all (the fair unseen number)"
