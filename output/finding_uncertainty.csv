@@ -1,0 +1,5 @@
+Measure,Value_pct_per_year
+Point estimate,2.24
+"95% CI low (honest, by model)",-0.28
+"95% CI high (honest, by model)",3.59
+Zero line,0.0

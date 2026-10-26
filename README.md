@@ -69,7 +69,11 @@ Each script has a header comment explaining what it does and why.
   new cars.
 - Asking prices, not trade/auction values.
 - 2020 snapshot; the market has shifted a lot since (see SUMMARY.md, cited).
-- Proxy baseline mixes trims/generations within a model.
+- Proxy baseline mixes trims/generations within a model. The per-model table
+  does not control for trim or spec, so a model whose near-new and 2-year-old
+  listings differ in spec mix can look skewed (e.g. the Audi Q7 shows >100%
+  retention because its 2-year-old listings skew higher-spec). The regression
+  partly handles this via engine size.
 - Few models sold as both petrol and hybrid, so the fuel comparison is thin.
 
 ## Reconciling the two retention numbers

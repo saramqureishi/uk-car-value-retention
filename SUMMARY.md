@@ -23,6 +23,14 @@ brand-new, starting point, and **understates total depreciation for a buyer of
 new cars**. For a fleet buyer this matters: the real loss from new is bigger
 than these numbers show.
 
+**The per-model table does not control for trim or spec.** Within one model, the
+near-new and older listings can contain different spec mixes, which skews the
+comparison. For example the Audi Q7 shows over 100% retention at 2 years, not
+because it holds value, but because its 2-year-old listings skew towards
+higher-spec versions than its near-new baseline. The regression partly handles
+this through engine size, but the simple per-model table does not, so I treat
+extreme or above-100% values as a data-quality flag, not a finding.
+
 ---
 
 ## What I found
